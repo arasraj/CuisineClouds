@@ -4,7 +4,7 @@ library(DBI)
 library(wordcloud)
 library(RColorBrewer)
 
-dir.create(file.path('/home/kip/foodnetwork', 'png'), showWarnings = FALSE)
+dir.create(file.path('/path/to/your_directory', 'png'), showWarnings = FALSE)
 
 con <- dbConnect(SQLite(), "db")
 sql <- "select distinct cuisine_type from frequency"
