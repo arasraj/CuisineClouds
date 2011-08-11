@@ -3,7 +3,6 @@
 This project provides a means to determine which ingredients are the most characteristic of a certain cuisine. The method used to accomplish this was extracting term frequencines of serveral hundred recipes and visualizing them in a word cloud. All recipes are scraped from FoodNetwork.com, so take the accuracy of these word clouds for what they're worth. It uses the "wordcloud" R package to visualize the ingredients.
 
 ## How to use:
---------
 
 1. Run:
 
@@ -11,7 +10,7 @@ This project provides a means to determine which ingredients are the most charac
    
    This will scrape foodnetwork, perform the data analysis, and create/insert into SQLite db. 
 
-2. Run in R:
+   Run in R:
 
    > source('visualize.r')
 
