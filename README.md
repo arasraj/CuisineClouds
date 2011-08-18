@@ -17,4 +17,5 @@ This project provides a means to determine which ingredients are the most charac
    This will run the R script and generate the word clouds as png's
    in the png subdirectory.
 
+## Indian Cuisine Word Cloud Example:
  <img src="https://github.com/arasraj/CuisineClouds/raw/master/png/indian_wordcloud.png" alt="Indian Word Cloud" align="center" />
